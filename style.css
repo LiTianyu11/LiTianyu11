@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+header{
+    display: flex;
+}
+.nav-left{
+    padding-left: 20px;
+    
+}
+
+.nav-left ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-left ul li{
+    margin: 32px 2px 0 40px;
+}
+/* 不知道该怎么让snap和nav有不同的margin了 */
+
+
+.nav-right ul{
+    display: flex;
+}
